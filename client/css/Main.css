@@ -1,14 +1,11 @@
 ﻿body{
-    position: fixed;
+    position: relative;
     margin:0;
     padding:0;
     background-image: linear-gradient(to botom,#5D248C,#538AA0);
-    background-size: 100% ;
     height: 100vh;
     width: 100vw;
 }
-
-.
 
 .menuDiv{
   position: absolute;
