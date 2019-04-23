@@ -120,12 +120,20 @@ position: relative;
 
 .homeTitle{
   position: absolute;
-  top: 400px;
+  top: 300px;
+  color:white;
+ width: 900px;
+ right: 300px;
+
 }
 
 .homeMessage{
   position: absolute;
   top: 600px;
+  width: 900px;
+  color:white;
+  right: 300px;
+
 }
 
 .worldVectorDiv{
