@@ -366,7 +366,7 @@ router.get('/api/videoinfo', catchAsync(async(req, res, next) => {
 router.get('/api/video', catchAsync(async(req, res, next) => {
   const { link,name,ext,format_id } = req.query;
   //var options = [`--format=${format_id}`];
-
+	var options;
   if (!link) {
     return res.send({success:false,reason:"no link sent"});
   }
