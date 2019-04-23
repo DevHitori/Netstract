@@ -1,2 +1,2 @@
 # Netstract
-[Website](www.Netstract.xyz)
+[Website](http://www.Netstract.xyz)
