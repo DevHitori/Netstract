@@ -2,13 +2,11 @@
     position: fixed;
     margin:0;
     padding:0;
+    background: linear-gradient(to botom,#5D248C,#538AA0);
     height: 100vh;
     width: 100vw;
 }
 
-.background{
-	background-image: linear-gradient(to botom,#5D248C,#538AA0);
-}
 
 .menuDiv{
   position: absolute;
