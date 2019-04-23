@@ -1,2 +1,2 @@
-# Netract
-Netract
+# Netstract
+Netstract.xyz
