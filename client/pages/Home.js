@@ -103,7 +103,7 @@ export default class Home extends React.Component{
 
 
 
-    return(<div>
+    return(<div className="background">
       <Menu user={this.state.user}/>
           <Route exact path='/' component={home} />
           <Route path='/video' component={Video} />
