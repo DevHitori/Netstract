@@ -93,11 +93,6 @@ export default class Home extends React.Component{
       discordUser
     } = this.state;
 
-    const divStyle1= {
-      height: '100vh',
-      width: '100vw',
-      backgroundImage: `url('https://cdn.discordapp.com/attachments/535827735159767051/562834265369477142/background1.jpg')`
-    }
 
 
 
