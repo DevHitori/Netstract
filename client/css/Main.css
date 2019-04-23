@@ -1,0 +1,297 @@
+body{
+    position: fixed;
+    margin:0;
+    padding:0;
+    background-image: url('../images/background.png');
+    background-size: 100% ;
+    height: 100vh;
+    width: 100vw;
+}
+
+.menuDiv{
+  position: absolute;
+  top: -40px;
+  left:-5px;
+  z-index: 1;
+}
+
+.menuPath{
+  position: absolute;
+  top: -5px;
+}
+
+.menuBar{
+  position: absolute;
+  left: 20%;
+  top: 220px;
+}
+
+.menuContent{
+position: relative;
+}
+
+.menuLogo{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    z-index: 5;
+}
+
+.menuLogoText{
+  position: absolute;
+  top: 150px;
+  left: 30px;
+  color: grey;
+  font-weight: 600;
+  width: 700px;
+  font-size: 16px;
+}
+
+.menuList{
+  position: relative;
+  top: 250px;
+  left: 80px;
+}
+
+.menuFooter{
+  position: absolute;
+  bottom: 0;
+}
+
+
+.menuOPT{
+  position: relative;
+}
+
+.api{
+  position: relative;
+  top: 5px;
+}
+
+.aboutUs{
+  position: relative;
+  top: -40px;
+}
+
+.contactUs{
+  position: relative;
+  top: 40px;
+}
+
+.extractData{
+  position: relative;
+  top: 235px;
+}
+
+.extractVideo{
+  position: relative;
+  top: 200px;
+}
+
+.selectedButton{
+  position: absolute;
+  top: 638.5px;
+  left: 29px;
+  z-index: 6;
+}
+
+.extractWebpage{
+  position: relative;
+  top: 270px;
+}
+
+.extractImage{
+  position: relative;
+  top: 165px;
+}
+
+
+
+.homeDiv{
+  padding-left: 30%;
+  margin: 0;
+}
+
+.homeTitle{
+  position: absolute;
+  top: 400px;
+}
+
+.homeMessage{
+  position: absolute;
+  top: 600px;
+}
+
+.worldVectorDiv{
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+
+.worldVector{
+  width: 70%;
+}
+
+
+.signButtons{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 500px;
+  float: right;
+}
+
+.SigninButton{
+  position: absolute;
+  top: 15px;
+  right: 190px;
+  width: 120px;
+}
+
+.SignupButton{
+  top: 15px;
+  width: 120px;
+  position: absolute;
+  right: 40px;
+}
+
+
+
+.formGroup1{
+  position: absolute;
+  margin: 10% 35%;
+  padding: 20px 30px;
+  background-color: #161618;
+  font-weight: 700;
+  color: #FFFFFF;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.formGroup1-Header{
+  padding-bottom: 9px;
+  margin: 0 0 20px;
+  border-bottom: 1px solid #eee;
+  font-size: 18px;
+}
+
+.formGroup1-Footer{
+  padding-top: 9px;
+  margin: 10px 0 20px;
+  border-top: 1px solid #eee;
+}
+
+.controlMsg{
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  float: right;
+  margin-top: 7px;
+}
+
+
+
+.videoImg{
+  position: absolute;
+  width: 720px;
+  top: 200px;
+  right: 390px;
+  overflow: hidden;
+  align-content: center;
+}
+
+.videoBox{
+  position: absolute;
+  width: 720px;
+  top: 200px;
+  right: 390px;
+}
+
+.videoData{
+  position: absolute;
+  width: 900px;
+  bottom: 80px;
+  right: 300px;
+}
+
+.videoNetstractMessage{
+  position: absolute;
+  width: 900px;
+  top: 250px;
+  right: 300px;
+}
+
+.videoInput{
+ position: absolute;
+ width: 900px;
+ top: 650px;
+ right: 300px;
+}
+
+.videoInput2{
+ position: absolute;
+ width: 900px;
+ top: 100px;
+ right: 300px;
+}
+
+.videoInfoButton{
+
+}
+
+.videoNetstractButton{
+  position: absolute;
+  width: 900px;
+  top: 650px;
+  right: 300px;
+}
+
+.NetstractButton1{
+  background-color: white;
+}
+.NetstractButton2{
+}
+
+.hide{
+  visibility: hidden;
+}
+
+.top{
+  z-index: 7;
+}
+
+.loading{
+  position: absolute;
+  width: 900px;
+  top: 650px;
+  right: 300px;
+}
+.user{
+  color: white;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
