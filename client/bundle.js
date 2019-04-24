@@ -36671,15 +36671,9 @@ var Home = function (_React$Component) {
           discordUser = _state.discordUser;
 
 
-      var divStyle1 = {
-        height: '100vh',
-        width: '100vw',
-        backgroundImage: 'url(\'https://cdn.discordapp.com/attachments/535827735159767051/562834265369477142/background1.jpg\')'
-      };
-
       return _react2.default.createElement(
         'div',
-        null,
+        { className: 'background' },
         _react2.default.createElement(_Menu2.default, { user: this.state.user }),
         _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: home }),
         _react2.default.createElement(_reactRouterDom.Route, { path: '/video', component: _Video2.default }),
